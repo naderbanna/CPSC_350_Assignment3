@@ -21,8 +21,6 @@ class GenStack{
     int mSize;
 
     temp *myArray;
-    temp *newArray;
-
 };
 
 
@@ -30,7 +28,6 @@ class GenStack{
 template <class temp>
 GenStack<temp>::GenStack(){
   myArray = new temp[128];
-  newArray = new temp[128];
   mSize = 128;
   top = -1;
 }
@@ -38,14 +35,12 @@ GenStack<temp>::GenStack(){
 template <class temp>
 GenStack<temp>::GenStack(int maxSize){
   myArray = new temp[maxSize];
-  newArray = new temp[maxSize];
   mSize = maxSize;
   top = -1;
 }
 
 template <class temp>
 GenStack<temp>::~GenStack(){
-  delete newArray;
   delete myArray;
 }
 
@@ -82,4 +77,9 @@ bool GenStack<temp>::isEmpty(){
 template <class temp>
 int GenStack<temp>::getSize(){
   return top + 1;
+}
+
+//not working
+template <class temp>
+void GenStack<temp>::updateSize(){
 }
