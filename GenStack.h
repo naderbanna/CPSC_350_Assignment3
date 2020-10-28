@@ -23,6 +23,8 @@ class GenStack{
     temp *myArray;
 };
 
+//finish updateSize()
+//throw error when pop is called and isEmpty is true
 
 
 template <class temp>
