@@ -16,7 +16,7 @@ class GenStack{
     bool isEmpty();
     int getSize();
     void updateSize(temp newSize);
-
+    
     int top;
     int mSize;
     int newSize;
