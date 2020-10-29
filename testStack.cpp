@@ -31,7 +31,7 @@ void GenStack<temp>::push(temp data){
 
 template <class temp>
 temp GenStack<temp>::pop(){
-  [ 
+
   if(isEmpty()){
     cout << "stack is empty" << endl;
   }

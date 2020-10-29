@@ -6,10 +6,11 @@ int mean(){
 
   cout << "Helloworld" << endl;
   index[i];
-  app = (app.sum(0)+12)/2
+  app = (app.sum(0)+12)/2;
 
   return 0;
 
+"{}"
 
-
+{{{{{}}}}}
 }
